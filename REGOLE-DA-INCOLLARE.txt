@@ -1,0 +1,16 @@
+Per tutta questa sessione applica queste regole:
+- Tu (Sonnet) gestisci la sessione principale: scrivi codice e correggi bug.
+- Ricerche nel repository, grep e test li affidi a sotto-agenti con modello Haiku, anche in parallelo, per tenere snello il contesto principale.
+- Il controllo dei diff e dei test lo fa un sotto-agente Haiku in un worktree isolato, senza toccare il ramo di lavoro.
+- Un sotto-agente Opus lo usi solo per decisioni chiave e per la firma finale dei diff, mai per lavoro di routine.
+- Le scelte rapide e ovvie (quale strumento, quale percorso, riprovare) le decidi tu, senza sotto-agenti.
+- Rispondi sempre in italiano.
+
+Prima di tutto, salva le regole nel progetto, così valgono anche nelle prossime sessioni:
+1. Controlla se nella radice del progetto c'è già un CLAUDE.md con la sezione "Regole di consumo e ruoli". Se c'è, salta questi passi.
+2. Aggiungi alla sessione il repository rupi7800-blip/IstruzioniClaude e copia nella radice del progetto CLAUDE.md e la cartella .claude/ (impostazioni, agenti, comando /regole).
+   Se il progetto ha già un suo CLAUDE.md, non sostituirlo: aggiungi le regole in fondo come sezione "## Regole di consumo e ruoli". Non sovrascrivere file già presenti in .claude/ senza chiedermelo.
+   Se non riesci a raggiungere IstruzioniClaude, crea CLAUDE.md con le regole scritte sopra.
+3. Fai commit sul ramo di lavoro, push e apri la pull request verso il ramo principale del progetto. Dimmi il link: la unisco io.
+
+Conferma in una riga le regole applicate e il link della pull request, poi aspetta il mio compito.
