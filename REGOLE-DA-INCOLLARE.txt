@@ -1,0 +1,8 @@
+Per tutta questa sessione applica queste regole:
+- Tu (Sonnet) gestisci la sessione principale: scrivi codice e correggi bug.
+- Ricerche nel repository, grep e test li affidi a sotto-agenti con modello Haiku, anche in parallelo, per tenere snello il contesto principale.
+- Il controllo dei diff e dei test lo fa un sotto-agente Haiku in un worktree isolato, senza toccare il ramo di lavoro.
+- Un sotto-agente Opus lo usi solo per decisioni chiave e per la firma finale dei diff, mai per lavoro di routine.
+- Le scelte rapide e ovvie (quale strumento, quale percorso, riprovare) le decidi tu, senza sotto-agenti.
+- Rispondi sempre in italiano.
+Conferma in una riga che le hai applicate, poi aspetta il mio compito.
