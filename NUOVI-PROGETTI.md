@@ -13,18 +13,14 @@ copia originale.
 
 ## Quando crei un nuovo progetto
 
-1. Apri una sessione di Claude Code sul nuovo progetto.
-2. Scrivi:
-
-   > Copia le regole da IstruzioniClaude in questo progetto e apri la pull request.
-
-   Claude aggiunge il repository IstruzioniClaude alla sessione, copia i file e
-   apre la pull request.
+1. Apri una sessione di Claude Code sul nuovo progetto, scegliendo Sonnet come modello.
+2. Incolla come primo messaggio il testo di `REGOLE-DA-INCOLLARE.txt`.
+   Claude applica subito le regole, copia i file da IstruzioniClaude nel
+   progetto e apre la pull request. Se il progetto ha già un suo `CLAUDE.md`,
+   le regole vengono aggiunte in fondo senza sostituirlo.
 3. Su GitHub unisci la pull request nel ramo principale (di solito `main`).
-4. Dalla sessione successiva le regole sono attive da sole.
-
-Se il progetto ha già un suo `CLAUDE.md`, chiedi di **aggiungere** le regole in
-fondo, non di sostituirlo, così le istruzioni del progetto restano.
+4. Dalla sessione successiva le regole sono attive da sole: non serve più
+   incollare il testo, basta `/regole` se vuoi richiamarle.
 
 ## Per controllare che funzionino
 
